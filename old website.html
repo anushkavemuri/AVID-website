@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color:indianred;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Home</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">About</a>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Programs</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Student Life</a>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Infrastructure</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Admissions</a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Placements</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                <li class="dropdown">  
+                <div class="dropbtn">
+                  <input type="text" placeholder="Search..">
+                </div>
+  </li>
+</ul>
+
+</body>
+</html>
+
+
+
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(82, 74, 127);
+}
+
+.hero-image {
+  background-image: url("images/1000_F_485661095_sFrV8ijL1w4EqLCXipiqcbwsdn648I7Y.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  color:#6c4871;
+}
+
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">AV Institute of Design </h1>
+  </div>
+</div>
+</body>
+</html>
+
+
+    <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:rgb(82, 74, 128);
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:indianred;
+}
+
+/* Center website */
+.main {
+  max-width: max-content;
+  margin-left:10px;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 2px -18px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 7px;
+}
+
+/* Create five equal columns that floats next to each other */
+.column {
+  float:left;
+  width: 16.5%;
+  height: 102%;
+  color: indianred;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgb(82, 74, 129);
+  padding: 10px;
+  height:100%;
+  color:indianred;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.s{
+    color: azure;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.color{
+  color:indianred;
+}
+
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+<h3 class="s">About Us :</h3>
+<a class="s" style="text-decoration: none;">For more than a century, AVID has been inspired by the transformative potential of design. Today, the school’s groundbreaking academic programs carry forward that mission, making AVID the number one design school in India and among the top three globally. At the heart of a comprehensive university — The New School — AVID draws on a range of academic fields to deliver a uniquely interdisciplinary education enriched by the resources of its home in Hyderabad and branch campus in the U.S. Here, the next generation of creative leaders engage in real-world learning and develop as critical thinkers and makers grappling with the pressing issues of our time.
+</a>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <div style="height:35%">
+        <a target="_blank" href="C:\Users\ANUSHKA\Pictures\my art\Anushka Vemuri (@anushka.arttt) • Instagram photos and videos - Google Chrome 9_21_2021 8_05_49 AM (2).png">
+        <img src="images/Anushka Vemuri (@anushka.arttt) • Instagram photos and videos - Google Chrome 9_21_2021 8_05_49 AM (2).png" alt="Mountains" style="width:100%"></a>
+      </div>
+      <h3 class="color">Skull+Honey</h3>
+      <p class="color">This is a skull+honey combo drawing i did a few months ago. I used faber castell 48shades to colour it and regular shading pencils.I really like how it came out and also enjoyed making this art peice</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <div style="height:35%">
+        <a target="_blank" href="C:\Users\ANUSHKA\Pictures\my art\IMG_20210518_165058 (2).jpg">
+        <img src="images/IMG_20210518_165058 (2).jpg" alt="Lights" style="width:100%"></a>
+      </div>
+    <h3 class="color">Tiny House Interior</h3>
+      <p class="color">This is another peice i did a while back. I remember doing this is my art class right before i entered grade 10 and left all co-curricular classes. I love inetrior decor related art so this is one of my favs.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <div style="height:35%">
+        <a target="_blank" href="C:\Users\ANUSHKA\Pictures\my art\Anushka Vemuri (@anushka.arttt) • Instagram photos and videos - Google Chrome 9_21_2021 8_05_11 AM (2).png">
+         <img src="images/Anushka Vemuri (@anushka.arttt) • Instagram photos and videos - Google Chrome 9_21_2021 8_05_11 AM (2).png" alt="Nature" style="width:100%"></a>
+      </div>
+    <h3 class="color">Asta+Yuno from BlackClover</h3>
+      <p class="color">I hope most of you like Anime just like i do! Black Clover is one of my fav anime(waiting for the other eps.)So, I made this combo of Asta&Yuno from a scene from one of the fights.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <div style="height:35%">
+      <a target="_blank" href="C:\Users\ANUSHKA\Pictures\my art\IMG_20210518_164623.jpg">
+        <img src="images/IMG_20210518_164623.jpg" alt="Mountains" style="width:100%"></a>
+    </div>  
+      <h3 class="color">Who doesn't like sneakers?</h3>
+      <p class="color">Believe it or not, i had to make this whole piece with color pencils. Yeah, it was absolute pain.</p>
+    </div>
+  </div>
+<div class="column">
+<div class="content">
+  <div style="height:35%">
+    <a target="_blank" href="C:\Users\ANUSHKA\Pictures\my art\Anushka Vemuri (@anushka.arttt) • Instagram photos and videos - Google Chrome 9_21_2021 8_06_06 AM (2).png">
+      <img src="images/Anushka Vemuri (@anushka.arttt) • Instagram photos and videos - Google Chrome 9_21_2021 8_06_06 AM (2).png" alt="Bear" style="width:100%"></a>
+  </div>
+  <h3 class="color">Pretty Red Flower
+  </h3>
+  <p class="color">So, this piece i did a realllyyy long time back. I used Fabes Castell 48 shades water colour pencils. It's simple bit says so much.I love how solid the colors came out!</p>
+</div></div>
+<div class="column">
+<div class="content">
+  <div style="height:35%">
+    <a taregt="_blank" href="C:\Users\ANUSHKA\Pictures\my art\IMG_20220930_170242239_2.jpg">
+    <img src="images/IMG_20220930_170242239_2.jpg" alt="haha" style="width:100%"></a>
+  </div>
+    <h3 class="color">Shoto Todoroki</h3>
+    <p class="color">My Hero Acadamia!! I know this doesn't look exactly like him but I'm still Obsessed with this one.This was my favourite artwork to work on. The drawing->colouring->everything was so fun.</p>
+  </div>
+</div>
+
+<!-- POTFOLIO GRID -->
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
+
+
+
+        <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:rgb(81, 73, 129);
+  font-family: Helvetica, sans-serif;
+  color:black;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 20px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  height: 80%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the side */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right left */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  color:black;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>2022</h2>
+      <img src="images/IMG_20221030_095713318_4.jpg" width="70%" height="45%">
+      <h5>Spooky Venom+Pumpkin</h3>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2021</h2>
+      <img src="images/IMG_20210519_113801.jpg" width="80%" height="45%">
+      <h5>Bedroom interior design </h5>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2020</h2>
+      <img src="images/IMG_20210518_164742.jpg" width="41%" height="45%">
+      <h5>Ariel Mermaid</h5>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2019</h2>
+      <img src="images/126ddbfd-f716-4964-8b99-d8553259d83a.jfif" width="47%" height="50%">
+      <h5>Still Life</h5>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2018</h2>
+  
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2017</h2>
+    xxxxxx
+  </div>
+</div><br><br><br>
+
+</body>
+</html>
+
+
+
+      <html>
+  <head>
+    <style>
+      .b{
+        font-family: 'Courier New', Courier, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <a align="left" class="b" href="">EXCITING NEWS COMING UP!!</a>
+  </body>
+</html>
+
