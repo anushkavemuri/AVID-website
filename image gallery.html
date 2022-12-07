@@ -3,6 +3,61 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+body {
+  background-color:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3f1467;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  padding: 17px 25px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color:indianred;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -57,8 +112,62 @@ body {
 }
 </style>
 </head>
-<body>
+  <body>
+    <br>
+  
 
+    <ul>
+      <li class="dropdown">
+        <a href="C:\Users\ANUSHKA\Desktop\school\HTML CODES\website\personalwebsite\index.html" class="dropbtn">Home</a>
+        
+        <li class="dropdown">
+          <a href="C:\Users\ANUSHKA\Desktop\school\HTML CODES\website\personalwebsite\wdvnjkev.html" class="dropbtn">About</a>
+          
+          <li class="dropdown">
+            <a  class="dropbtn">Programs</a>
+            <div class="dropdown-content">
+              <a href="C:\Users\ANUSHKA\Desktop\school\HTML CODES\website\personalwebsite\wjnrgfi4re.html">Interior Design</a>
+              <a href="C:\Users\ANUSHKA\Desktop\school\HTML CODES\website\personalwebsite\wjnrgfi4re.html">Fine Arts</a>
+              <a href="C:\Users\ANUSHKA\Desktop\school\HTML CODES\website\personalwebsite\wjnrgfi4re.html">Photography</a>
+              <a href="C:\Users\ANUSHKA\Desktop\school\HTML CODES\website\personalwebsite\wjnrgfi4re.html">Communication Design</a>
+              <a href="C:\Users\ANUSHKA\Desktop\school\HTML CODES\website\personalwebsite\wjnrgfi4re.html">Liberal Arts</a>
+              <a href="C:\Users\ANUSHKA\Desktop\school\HTML CODES\website\personalwebsite\wjnrgfi4re.html">Textile Design</a>
+              <a href="C:\Users\ANUSHKA\Desktop\school\HTML CODES\website\personalwebsite\wjnrgfi4re.html">Architectural Design</a>
+            </div>
+            <li class="dropdown">
+              <a  class="dropbtn">Student Life</a>
+              <div class="dropdown-content">
+                <a href="https://woxsen.edu.in/campus-life">Overview</a>
+                <a href="#">Connect with current students</a>
+                <a href="#">Living and Dining</a>
+                <a href="#">Co-Curricular</a>
+                <a href="#">Upcoming Programs</a>
+              </div>
+              <li class="dropdown">
+                <a class="dropbtn">Infrastructure</a>
+                <div class="dropdown-content">
+                  <a href="C:\Users\ANUSHKA\Desktop\school\HTML CODES\website\personalwebsite\image gallery.html">Gallery</a>
+                  <a href="#">Hostel Stay</a>
+                  <a href="#" >Additional Facilities</a>
+                </div>
+                <li class="dropdown">
+                  <a  class="dropbtn">Admissions</a>
+                  <div class="dropdown-content">
+                    <a href="C:\Users\ANUSHKA\Desktop\school\HTML CODES\website\personalwebsite\admissions process.html">Admission Process</a>
+                    <a href="#">Eligibilty</a>
+                    <a href="#">Student Loan</a>
+                    <a href="#">International/Transfer Students</a>
+                    <a href="#">Tuition & Additional Fee </a>
+                    <a href="#">Contact Us</a>
+                  </div>
+                  <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Placements</a>
+                    <li class="dropdown">  
+                    <div class="dropbtn">
+                      <input type="text" placeholder="Search..">
+                    </div>
+      </li>
+    </ul><br>
 <!-- Header -->
 <div class="header" id="myHeader">
   <h1>AVID Gallery </h1>
